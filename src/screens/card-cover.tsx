@@ -5,7 +5,7 @@ import './card-content.css'
 
 import img_button_back from '../assets/img_button_back.svg'
 import bg_card_cover from '../assets/bg_card_cover.png'
-import img_main_card_cover from '../assets/bg_card_cover_22.png'
+import img_main_card_cover from '../assets/bg_card_cover_222.png'
 import title_center_card_cover from '../assets/title_center_card_cover.png'
 import img_kiss_card_cover from '../assets/img_kiss_card_cover.png'
 import img_heart_card_cover from '../assets/img_heart_card_cover.png'
@@ -168,10 +168,10 @@ function CardCover() {
 
                 <div
                     style={{
-                        position: 'absolute',
-                        //display: 'flex',
+                        position: 'relative',
+                        display: 'flex',
                         //justifyContent: 'flex-end',
-                        top: 450,
+                        top: 400,
                         left: 50,
                         right: 0,
                         bottom: 0,
@@ -179,17 +179,17 @@ function CardCover() {
                         zIndex: 4,
                     }}
                 >
-                    {/*<img*/}
-                    {/*    src={title_invite_card_cover}*/}
-                    {/*    alt=""*/}
-                    {/*    style={{*/}
-                    {/*        width: '160px',*/}
-                    {/*        height: '40px',*/}
-                    {/*        marginTop: '50px',*/}
-                    {/*        marginLeft: '30px',*/}
-                    {/*        //display: 'none'*/}
-                    {/*    }}*/}
-                    {/*/>*/}
+                    <img
+                        src={title_invite_card_cover}
+                        alt=""
+                        style={{
+                            width: '160px',
+                            height: '40px',
+                            marginTop: '20px',
+                            marginLeft: '170px',
+                            //display: 'none'
+                        }}
+                    />
                     
                     <p
                         style={{
@@ -200,7 +200,8 @@ function CardCover() {
                             textDecoration: 'underline',
                             textDecorationStyle: 'dotted',
                             textUnderlineOffset: '12px',
-                            //marginLeft: '-70px',
+                            marginLeft: '-100px',
+                            marginTop: '60px',
                         }}
                     >
 
