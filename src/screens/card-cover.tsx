@@ -200,7 +200,7 @@ function CardCover() {
                             textDecoration: 'underline',
                             textDecorationStyle: 'dotted',
                             textUnderlineOffset: '12px',
-                            marginLeft: '-120px',
+                            marginLeft: '-140px',
                             marginTop: '60px',
                         }}
                     >
