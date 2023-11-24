@@ -186,7 +186,7 @@ function CardCover() {
                             width: '160px',
                             height: '40px',
                             marginTop: '20px',
-                            marginLeft: '170px',
+                            marginLeft: '200px',
                             //display: 'none'
                         }}
                     />
@@ -217,7 +217,7 @@ function CardCover() {
                         position: 'absolute',
                         top: 520,
                         //bottom:-700,
-                        right: 50,
+                        right: 20,
                        
                         //display: 'flex',
                         //justifyContent: 'flex-end',
